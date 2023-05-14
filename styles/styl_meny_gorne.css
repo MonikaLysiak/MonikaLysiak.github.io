@@ -29,7 +29,7 @@ header
 
 .sections {
     margin: 0;
-    width: 500px;
+    width: 800px;
     display: flex;
     justify-content: space-between;
 }
@@ -63,11 +63,6 @@ header
 .nav-top a:hover {
     box-shadow: 5px 5px 5px var(--background);
     font-size: x-large;
-}
-
-.fullnames a:hover {
-    box-shadow: 5px 5px 5px var(--background);
-    font-size: large;
 }
 
 .nav-top a:visited {
