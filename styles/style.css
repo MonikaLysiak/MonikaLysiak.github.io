@@ -21,6 +21,12 @@ body {
     margin: 0;
 }
 
+.container {
+    padding-top: 30px;
+	background-color: var(--containers);
+    min-height: 100vh;
+}
+
 hr.newstyle {
     border: 1px dotted white;
 }
