@@ -1,15 +1,9 @@
 /* */
 :root {
     --background: #00071C;
-    --containers: #00103D;
-    --strips: #00103D;
-}
-
-footer {
-	background-color: var(--strips);
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    --containers: #00071C;
+    --background: #00103D;
+    --strips: #00071C;
 }
 
 body {
@@ -19,23 +13,47 @@ body {
     background-color: var(--background);
     height: 100%;
     margin: 0;
-}
-
-.container {
-    padding-top: 30px;
-	background-color: var(--containers);
-    min-height: 100vh;
-}
-
-hr.newstyle {
-    border: 1px dotted white;
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative;
 }
 
 .front-page {
     background-image: url('pictures/AdobeStock_414496512.jpeg');
-    height: calc(100vh - 50px);
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 50px;
+}
+
+.container-main {
+    margin: 0;
+    text-align: justify;
+    width: 100vw;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 80vw;
+	background-color: var(--containers);
+    min-height: 100vh;
+    position: relative;
+    text-align: center;
+}
+
+hr.newstyle {
+    border: 1px dotted white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer {
+	background-color: var(--strips);
+    text-align: center;
+    height: 30px;
+    width: 80vw;
 }

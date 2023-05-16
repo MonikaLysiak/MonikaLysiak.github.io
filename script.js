@@ -13,10 +13,10 @@
       var currentPosition = $(window).scrollTop();
       if (currentPosition < 600) {
         $('.nav-side').hide();
-        $('.nav-top').show();
+        $('header').show();
       } else {
         $('.nav-side').show();
-        $('.nav-top').hide();
+        $('header').hide();
       }
     });
   });

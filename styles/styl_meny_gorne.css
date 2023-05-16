@@ -3,9 +3,11 @@ header
     background-color: var(--strips);
     color: white;
     height: 50px;
+    width: 100%;
     position: fixed;
     top: 0;
-    width: 100vw;
+    margin: 0;
+    padding: 0;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -28,14 +30,14 @@ header
     justify-content: space-between;
 }
 
-.sections {
+.nav-top .sections {
     margin: 0;
     width: 400px;
     display: flex;
     justify-content: space-between;
 }
 
-.sections a {
+.nav-top .sections a {
     color: white;
     width: 80px;
     height: 20px;
@@ -82,7 +84,7 @@ header
 }
 
 @media only screen and (max-width: 600px){
-    .sections {
+    .nav-top .sections {
         display: none;
     }
 }
