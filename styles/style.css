@@ -57,3 +57,8 @@ footer {
     height: 30px;
     width: 80vw;
 }
+
+a {
+    color: white;
+    font-size: x-large;
+}
